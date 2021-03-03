@@ -5,7 +5,7 @@ class AccountPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="ui mobile only padded grid"></div>
+        <div className="ui mobile only padded grid" />
         <div className="ui padded grid">
           <SideBar activePage="employee" />
           <div
@@ -20,7 +20,7 @@ class AccountPage extends React.Component {
                     className="ui  small image"
                     src="./logo512.png"
                   />
-                  <div className="ui hidden divider"></div>
+                  <div className="ui hidden divider" />
 
                   <div className="ui two column grid">
                     <div className="column">
@@ -30,7 +30,7 @@ class AccountPage extends React.Component {
                       <i className="ui  icon edit" />
                     </div>
                   </div>
-                  <div className="ui section divider"></div>
+                  <div className="ui section divider" />
 
                   <div className="ui two column grid">
                     <div className="column">
@@ -58,22 +58,22 @@ class AccountPage extends React.Component {
                         <tr>
                           <td data-label="Date">3/21/2021</td>
                           <td data-label="Type">Donation</td>
-                          <td data-label="Host"></td>
-                          <td data-label="Location"></td>
+                          <td data-label="Host" />
+                          <td data-label="Location" />
                           <td data-label="Notes">$100</td>
                         </tr>
                         <tr>
                           <td data-label="Date">2/21/2021</td>
                           <td data-label="Type">Donation</td>
-                          <td data-label="Host"></td>
-                          <td data-label="Location"></td>
+                          <td data-label="Host" />
+                          <td data-label="Location" />
                           <td data-label="Notes">$100</td>
                         </tr>
                         <tr>
                           <td data-label="Date">1/21/2021</td>
                           <td data-label="Type">Donation</td>
-                          <td data-label="Host"></td>
-                          <td data-label="Location"></td>
+                          <td data-label="Host" />
+                          <td data-label="Location" />
                           <td data-label="Notes">$100</td>
                         </tr>
                         <tr>
